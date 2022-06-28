@@ -14,7 +14,7 @@ for (int i = 0; i < arrayElevato.Length; i++) {
 Console.WriteLine("La somma è: " + SommaElementiArray(array));
 
 
-    //funzione 1, stampa array
+//funzione 1, stampa array
 void StampaArray(int[] array){
     for (int i = 0; i < array.Length; i++){
         if (i == 0) { 
@@ -33,6 +33,7 @@ int Quadrato(int numero){
     return numero * numero;
 }
 
+//funzione 3, array elevato al quadrato
 int[] ElevaArrayAlQuadrato(int[] array){
     int[] nuovoArray = (int[])array.Clone();
 
@@ -43,6 +44,7 @@ int[] ElevaArrayAlQuadrato(int[] array){
     return nuovoArray;
 }
 
+//funzione 4, somma elementi array
 int SommaElementiArray(int[] array){
     int somma = 0;
 
